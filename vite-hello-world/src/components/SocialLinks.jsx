@@ -5,8 +5,12 @@ import Github from "../assets/github.svg"
 function SocialLinks() {
   return (
     <div className="social-links">
-      <link></link>
-      <link></link>
+      <Link to="www.linkedin.com/in/abriellerperry">
+      <Image src={LinkedIn} alt="linkedin" />
+      </Link>
+      <Link to="https://github.com/abrielleperry">
+      <Image src={Github} alt="github" />
+      </Link>
     </div>
   )
 }
