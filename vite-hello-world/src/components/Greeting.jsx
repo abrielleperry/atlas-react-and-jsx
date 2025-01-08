@@ -28,4 +28,4 @@ function Greeting() {
 }
 
 
-export defualt Greeting;
+export default Greeting;
