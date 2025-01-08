@@ -6,7 +6,7 @@ import night from "../assets/night.svg"
 
 function Greeting() {
 
-  const currentTime = new Date().getTime
+  const currentTime = new Date().getHours()
 
   greeting = {
   (currentTime >= 6 && currentTime < 12:) ? “Good Morning!”:
