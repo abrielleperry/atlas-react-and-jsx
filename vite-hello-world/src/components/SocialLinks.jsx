@@ -5,10 +5,10 @@ import Github from "../assets/github.svg"
 function SocialLinks() {
   return (
     <div className="social-links">
-      <a href="www.linkedin.com/in/abriellerperry">
+      <a href="https://linkedin.com/in/abriellerperry" target="_blank">
       <img src={LinkedIn} alt="linkedin" />
       </a>
-      <a href="https://github.com/abrielleperry">
+      <a href="https://github.com/abrielleperry" target="_blank">
       <img src={Github} alt="github" />
       </a>
     </div>
