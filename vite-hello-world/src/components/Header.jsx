@@ -3,7 +3,7 @@ import Greeting from "./Greeting"
 function Header() {
   return <div className="header">
     <Greeting />
-    </div>;
+    </div>
 }
 
 export default Header;
