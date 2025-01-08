@@ -8,10 +8,10 @@ function Greeting() {
 
   const currentTime = new Date().getHours()
 
-  const greeting = (currentTime >= 6 && currentTime < 12) ? “Good Morning!” :
-  (currentTime >= 12 && currentTime < 17) ? “Good Afternoon!” :
-  (currentTime >= 17 && currentTime < 21) ? “Good Evening!” :
-  “Good Night!”;
+  const greeting = (currentTime >= 6 && currentTime < 12) ? "Good Morning!" :
+  (currentTime >= 12 && currentTime < 17) ? "Good Afternoon!" :
+  (currentTime >= 17 && currentTime < 21) ? "Good Evening!" :
+  "Good Night!";
 
   const image =
   (currentTime >= 6 && currentTime < 12) ? day :
