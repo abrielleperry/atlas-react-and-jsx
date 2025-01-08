@@ -20,10 +20,12 @@ function Greeting() {
   night;
 
 
-  return <h1 className="greeting">
-    <img src={logo} alt="logo" /> {greeting}
+  return (
+  <h1 className="greeting">
+    <img src={image} alt="greeting" /> {greeting}
   </h1>
+  );
 }
 
 
-export defualt Header;
+export defualt Greeting;
