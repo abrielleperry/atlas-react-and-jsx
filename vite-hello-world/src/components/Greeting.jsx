@@ -8,18 +8,16 @@ function Greeting() {
 
   const currentTime = new Date().getHours()
 
-  const greeting =
-  (currentTime >= 6 && currentTime < 12) ? “Good Morning!” :
+  const greeting = (currentTime >= 6 && currentTime < 12) ? “Good Morning!” :
   (currentTime >= 12 && currentTime < 17) ? “Good Afternoon!” :
   (currentTime >= 17 && currentTime < 21) ? “Good Evening!” :
   “Good Night!”;
 
-  const image = {
-  (currentTime >= 6 && currentTime < 12) ? `src/assets/day.svg` :
-  (currentTime >= 12 && currentTime < 17) ? `src/assets/day.svg` :
-  (currentTime >= 17 && currentTime < 121) ? `src/assets/evening.svg` :
-  src/assets/night.svg;
-  }
+  const image =
+  (currentTime >= 6 && currentTime < 12) ? day :
+  (currentTime >= 12 && currentTime < 17) ? day :
+  (currentTime >= 17 && currentTime < 121) ? evening :
+  night;
 
 
   return <h1 className="greeting">
