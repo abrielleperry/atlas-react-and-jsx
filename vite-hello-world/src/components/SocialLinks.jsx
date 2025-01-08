@@ -10,3 +10,5 @@ function SocialLinks() {
     </div>
   )
 }
+
+export default SocialLinks;
