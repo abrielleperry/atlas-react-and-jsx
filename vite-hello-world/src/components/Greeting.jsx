@@ -8,14 +8,14 @@ function Greeting() {
 
   const currentTime = new Date().getHours()
 
-  greeting = {
+  const greeting = {
   (currentTime >= 6 && currentTime < 12:) ? “Good Morning!”:
   (currentTime >= 6 && currentTime < 12:) ? “Good Afternoon!”:
   (currentTime >= 6 && currentTime < 12:) ? “Good Evening!”:
   “Good Night!”;
   }
 
-    image = {
+  const image = {
   (currentTime >= 6 && currentTime < 12:) ? `src/assets/day.svg`:
   (currentTime >= 6 && currentTime < 12:) ? `src/assets/day.svg`:
   (currentTime >= 6 && currentTime < 12:) ? `src/assets/evening.svg`:
