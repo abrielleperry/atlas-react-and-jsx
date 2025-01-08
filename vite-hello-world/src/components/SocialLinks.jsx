@@ -8,7 +8,7 @@ function SocialLinks() {
       <a href="https://linkedin.com/in/abriellerperry" target="_blank">
       <img src={LinkedIn} alt="linkedin" />
       </a>
-      <a href="https://github.com/abrielleperry" target="_blank">
+      <a href="https://github.com/abrielleperry/atlas-react-and-jsx/tree/main/vite-hello-world" target="_blank">
       <img src={Github} alt="github" />
       </a>
     </div>
