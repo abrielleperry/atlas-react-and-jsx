@@ -1,7 +1,9 @@
-function App() {
+import Greeting from "./Greeting"
+
+function Header() {
   return <div className="header">
     <Greeting />
     </div>;
 }
 
-export default App;
+export default Header;
