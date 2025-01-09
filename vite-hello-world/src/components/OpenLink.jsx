@@ -1,9 +1,9 @@
 import React from "react";
-import Open from "../assets/open.svg"
+import { Link } from 'react-router-dom';
 
-export function OpenLink(props) {
-  <Link to={link} target="_blank" >
-
+export function OpenLink( {link} ) {
+  <Link to={link} target="_blank" rel="noopener noreferrer" >
+    <img src={require("../assets/open.svg")} alt="Open link" />
   </Link>
 }
 
