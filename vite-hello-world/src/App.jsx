@@ -23,7 +23,11 @@ function App() {
           </ul>
         </Section>
         <Section title="Helpful Resourses">
-
+          <HelpfulResource link="https://scrimba.com/learn/learnreact" label="Scrimba - Learn React" />
+          <HelpfulResource />
+          <HelpfulResource />
+          <HelpfulResource />
+          <HelpfulResource />
         </Section>
     </div>
   )
