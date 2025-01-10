@@ -7,7 +7,7 @@ function OpenLink({ link }) {
   }
 
   return (
-    <a href="{link}" target="_blanc" onClick={{handleClick}}>
+    <a href={link} target="_blanc" onClick={handleClick}>
       <img src={OpenSVG} alt="Open link" />
     </a>
   );

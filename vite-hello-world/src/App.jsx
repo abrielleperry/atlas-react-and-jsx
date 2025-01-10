@@ -27,7 +27,7 @@ function App() {
           <HelpfulResource link="https://www.w3schools.com/react/react_jsx.asp" label="W3 - React JSX" />
           <HelpfulResource link="https://www.freecodecamp.org/news/how-to-handle-events-in-react-19/" label="How to Handle Events in React" />
           <HelpfulResource link="https://react.dev/learn" label="Offical Documentation" />
-          <HelpfulResource link="https://intranet.atlasschool.com/rltoken/poyQj1KoaxeNJyI187GKtg" label="React Tutorial for Beginners Video" />
+          <HelpfulResource link="https://www.geeksforgeeks.org/react/" label="Geeks for Geeks - React" />
         </Section>
     </div>
   )
