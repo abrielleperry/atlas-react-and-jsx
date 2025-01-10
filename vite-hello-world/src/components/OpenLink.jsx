@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import OpenSVG from "../assets/open.svg";
 
-export function OpenLink( {link} ) {
-  <Link to={link} target="_blank" rel="noopener noreferrer" >
-    <img src={require("../assets/open.svg")} alt="Open link" />
-  </Link>
+function OpenLink({ link }) {
+  function handleClick() {
+    window.open(link, '_blank');
+  }
+
+  return (
+    <a href="{link}" target="_blanc" onClick={{handleClick}}>
+      <img src={OpenSVG} alt="Open link" />
+    </a>
+  );
 }
 
 export default OpenLink;
