@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./components/Header"
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
+
 
 
 
@@ -29,6 +31,7 @@ function App() {
           <HelpfulResource link="https://react.dev/learn" label="Offical Documentation" />
           <HelpfulResource link="https://www.geeksforgeeks.org/react/" label="Geeks for Geeks - React" />
         </Section>
+        <AboutMe />
     </div>
   )
 }
