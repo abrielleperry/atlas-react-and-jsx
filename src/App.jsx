@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="app">
-      Hello Atlas
         <Header />
         <Section title="What is react?">
           React is a popular JavaScript library developed by Facebook for building user interfaces, particularly single-page applications where a dynamic and responsive user experience is essential. It allows developers to create reusable UI components that manage their own state and can be composed to build complex user interfaces.
