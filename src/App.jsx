@@ -13,8 +13,7 @@ function App() {
     <div className="app">
         <Header />
         <Section title="What is react?">
-          React is a popular JavaScript library developed by Facebook for building user interfaces, particularly single-page applications where a dynamic and responsive user experience is essential. It allows developers to create reusable UI components that manage their own state and can be composed to build complex user interfaces.
-        </Section>
+          React is a JavaScript library that facilitates the development of user interfaces, particularly for single page applications. It allows developers to build reusable UI components that independently manage their state, which can then be combined to create complex user interfaces. React is optimized for speed and efficiency, using a virtual DOM to enhance rendering performance. Its main advantages lie in its component based architecture, flexibility, and strong focus on performance and user experience.        </Section>
         <Section title="Benefits of React?">
           <ul>
             <li>Component-Based Architecture</li>
