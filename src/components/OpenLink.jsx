@@ -1,7 +1,7 @@
 import React from "react";
 import OpenSVG from "../assets/open.svg";
 
-function OpenLink({ link }) {
+export default function OpenLink({ link }) {
   function handleClick() {
     window.open(link, '_blank');
   }
@@ -12,5 +12,3 @@ function OpenLink({ link }) {
     </a>
   );
 }
-
-export default OpenLink;

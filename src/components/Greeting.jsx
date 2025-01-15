@@ -4,7 +4,7 @@ import evening from "../assets/evening.svg"
 import night from "../assets/night.svg"
 
 
-function Greeting() {
+export default function Greeting() {
 
   const currentTime = new Date().getHours()
 
@@ -26,6 +26,3 @@ function Greeting() {
   </h1>
   );
 }
-
-
-export default Greeting;

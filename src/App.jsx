@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 
 
-function App() {
+export default function App() {
   return (
     <div className="app">
         <Header />
@@ -36,5 +36,3 @@ function App() {
     </div>
   )
 }
-
-export default App;

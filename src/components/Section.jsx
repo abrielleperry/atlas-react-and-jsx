@@ -1,6 +1,6 @@
 import React from "react";
 
-function Section({ title, children }) {
+export default function Section({ title, children }) {
   return (
     <div className="section">
       <h1>{title}</h1>
@@ -8,5 +8,3 @@ function Section({ title, children }) {
     </div>
   );
 }
-
-export default Section;

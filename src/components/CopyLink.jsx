@@ -1,7 +1,7 @@
 import React from "react";
 import CopySVG from "../assets/copy.svg";
 
-function CopyLink({ link }) {
+export default function CopyLink({ link }) {
   function handleCopy() {
     navigator.clipboard.writeText(link);
   };
@@ -10,5 +10,3 @@ function CopyLink({ link }) {
     />
   );
 }
-
-export default CopyLink;

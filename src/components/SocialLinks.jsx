@@ -3,7 +3,7 @@ import LinkedIn from "../assets/linkedin.svg"
 import Github from "../assets/github.svg"
 
 
-function SocialLinks() {
+export default function SocialLinks() {
   return (
     <div className="social-links">
       <a href="https://linkedin.com/in/abriellerperry" target="_blank">
@@ -15,5 +15,3 @@ function SocialLinks() {
     </div>
   )
 }
-
-export default SocialLinks;

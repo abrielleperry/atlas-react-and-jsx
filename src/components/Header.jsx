@@ -2,7 +2,7 @@ import React from "react";
 import Greeting from "./Greeting"
 import SocialLinks from "./SocialLinks"
 
-function Header() {
+export default function Header() {
   return (
   <div className="header">
     <nav>
@@ -11,5 +11,3 @@ function Header() {
     </nav>
   </div>)
 }
-
-export default Header;
