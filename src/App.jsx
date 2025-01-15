@@ -15,7 +15,7 @@ export default function App() {
         <Section title="What is react?">
           React is a JavaScript library that helps developers create user interfaces, primarily for single page applications. It enables the creation of reusable UI components that manage their own state, which can then be combined to build more complex interfaces. React prioritizes speed and efficiency by using a virtual DOM to improve rendering performance. Its key advantages include its component based structure, adaptability, and strong focus on performance and user experience.
         </Section>
-        <Section title="Benefits of React?">
+        <Section title="Benefits of React">
           <ul>
             <li>Component-Based Architecture</li>
             <li>Virtual DOM</li>
