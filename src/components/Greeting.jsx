@@ -16,7 +16,7 @@ function Greeting() {
   const image =
   (currentTime >= 6 && currentTime < 12) ? day :
   (currentTime >= 12 && currentTime < 17) ? day :
-  (currentTime >= 17 && currentTime < 121) ? evening :
+  (currentTime >= 17 && currentTime < 21) ? evening :
   night;
 
 
