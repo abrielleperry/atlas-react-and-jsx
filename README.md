@@ -184,5 +184,5 @@ To deploy your own version:
 **Abrielle Perry**
 
 - GitHub: [abrielleperry](https://github.com/abrielleperry)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/abriellerperry)
+- LinkedIn: [abriellerperry](https://linkedin.com/in/abriellerperry)
 
